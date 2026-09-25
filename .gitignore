@@ -1,10 +1,26 @@
-# Python-generated files
+# Python
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
 
-# Virtual environments
-.venv
+# Data
+data/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Kubernetes secrets (don't commit real keys)
+k8s/secret.yaml
+
+# Docker
+*.tar.gz
+
+# OS
+.DS_Store
